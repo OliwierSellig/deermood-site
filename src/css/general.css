@@ -1,0 +1,61 @@
+html {
+  font-size: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+  font-weight: 400;
+  color: #444;
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem #a37d56;
+}
+
+.heading-primary {
+  color: #fff;
+  font-size: 8.6rem;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.heading-secondary {
+  font-size: 5.2rem;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.heading-tertiary {
+  font-size: 3.6rem;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.hidden-bag {
+  transform: translateX(100%);
+}
+
+.unvisible {
+  visibility: hidden;
+}
+
+.img-blurr {
+  filter: blur(8px);
+}
+
+.img-blurr-sm {
+  filter: blur(4px);
+}

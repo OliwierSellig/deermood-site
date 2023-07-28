@@ -1,0 +1,168 @@
+@import url("nav-media.css");
+@import url("footer-media.css");
+@import url("additional-media.css");
+
+/* ----------------- Media query for Product Page ---------------------- */
+/* --------------------------------------------------------------------- */
+
+/* ----------------- Below 1024px ---------------------- */
+
+@media (max-width: 1024px) {
+  .product-container {
+    align-items: start;
+  }
+
+  .product-info-container {
+    margin-top: 6.4rem;
+  }
+
+  .product-name {
+    font-size: 2.8rem;
+  }
+
+  .product-price {
+    font-size: 2.4rem;
+  }
+
+  .product-reviews-number {
+    font-size: 1.8rem;
+  }
+
+  .add-to-bag-button {
+    width: 85%;
+  }
+}
+
+/* ----------------- Below 880px ---------------------- */
+
+@media (max-width: 880px) {
+  .product-container {
+    gap: 3.2rem;
+    padding: 6.4rem 3.2rem;
+  }
+
+  .product-info-container {
+    margin-top: 0;
+  }
+
+  .product-name {
+    font-size: 2.4rem;
+  }
+
+  .product-price {
+    font-size: 2rem;
+  }
+
+  .add-to-bag-button {
+    width: 90%;
+    font-size: 2.2rem;
+  }
+}
+
+/* ----------------- Below 746px ---------------------- */
+
+@media (max-width: 746px) {
+  .product-container {
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+  }
+
+  .product-img {
+    justify-self: center;
+    width: 90%;
+  }
+
+  .product-info-container {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .product-name {
+    font-size: 2.8rem;
+  }
+
+  .product-price {
+    font-size: 2.4rem;
+  }
+}
+
+/* ----------------- Below 550px ---------------------- */
+
+@media (max-width: 550px) {
+  .product-container {
+    padding: 4.8rem 2.4rem;
+  }
+
+  .product-img {
+    width: 100%;
+  }
+
+  .add-to-bag-button {
+    margin-top: 3.6rem;
+  }
+
+  .product-accordions {
+    margin-top: 4.8rem;
+  }
+}
+
+/* ----------------- Below 480px ---------------------- */
+
+@media (max-width: 480px) {
+  .product-name {
+    font-size: 2.4rem;
+  }
+
+  .product-price {
+    font-size: 2rem;
+  }
+
+  .product-star-icon {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+
+  .product-sizes-heading {
+    font-size: 2rem;
+  }
+
+  .accordion-title {
+    font-size: 2.2rem;
+  }
+
+  .accordion-state {
+    font-size: 2.6rem;
+  }
+
+  .accordion-content {
+    font-size: 1.8rem;
+  }
+}
+
+/* ----------------- Below 360px ---------------------- */
+
+@media (max-width: 360px) {
+  .product-container {
+    padding: 3.6rem 2.4rem 4.8rem;
+  }
+
+  .add-to-bag-button {
+    width: 100%;
+  }
+
+  .accordion-content {
+    padding: 1.6rem;
+  }
+
+  .product-info-heading {
+    gap: 0.8rem;
+  }
+
+  .product-name {
+    font-size: 2.2rem;
+  }
+
+  .product-price {
+    font-size: 1.8rem;
+  }
+}

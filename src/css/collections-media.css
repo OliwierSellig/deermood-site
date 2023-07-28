@@ -1,0 +1,216 @@
+@import url("nav-media.css");
+@import url("footer-media.css");
+@import url("additional-media.css");
+
+/* ----------------- Media query for Collections Page ---------------------- */
+/* ------------------------------------------------------------------------- */
+
+/* ----------------- Below 1024px ---------------------- */
+
+@media (max-width: 1024px) {
+  .heading-tertiary {
+    font-size: 3.2rem;
+  }
+
+  .section-collections {
+    gap: 3.2rem;
+    padding: 6.4rem 3.2rem;
+  }
+
+  .nothing-found-message {
+    padding: 3.2rem;
+  }
+
+  .collections-nav {
+    font-size: 1.8rem;
+  }
+
+  .collections-price-control {
+    font-size: 2rem;
+  }
+
+  .price-up-icon,
+  .price-down-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .collections-container {
+    column-gap: 3.2rem;
+    row-gap: 3.6rem;
+  }
+
+  .clothing-container {
+    justify-content: start;
+  }
+
+  .clothing-name {
+    font-size: 2rem;
+  }
+
+  .clothing-price {
+    margin-top: 0;
+    font-size: 1.8rem;
+  }
+}
+
+/* ----------------- Below 880px ---------------------- */
+
+@media (max-width: 880px) {
+  .section-collections {
+    grid-template-columns: 1fr;
+  }
+
+  /* ---------------- Making an interactive filter menu --------------------- */
+
+  .collections-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    display: none;
+    gap: 4.8rem;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+  }
+
+  .collections-nav-active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .collections-options-list {
+    padding: 0;
+    border: none;
+    font-size: 2.4rem;
+  }
+
+  .collections-link {
+    color: #fff;
+  }
+
+  .collections-price-control {
+    font-size: 2.2rem;
+  }
+
+  .price-up-icon,
+  .price-down-icon {
+    height: 2.8rem;
+    width: 2.8rem;
+  }
+
+  .filter-container {
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+  }
+
+  .collections-filter-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.2rem;
+    height: 3.2rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .filter-icon {
+    width: inherit;
+    height: inherit;
+  }
+
+  .filter-text {
+    display: inline-block;
+    font-size: 2rem;
+  }
+
+  /* ------------------------------------------------------------------- */
+}
+
+/* ----------------- Below 746px ---------------------- */
+
+@media (max-width: 746px) {
+  .nothing-found-message {
+    font-size: 3.2rem;
+  }
+
+  .collections-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ----------------- Below 550px ---------------------- */
+
+@media (max-width: 550px) {
+  .section-collections {
+    padding: 3.2rem;
+  }
+
+  .nothing-found-message {
+    padding: 3.2rem 1.6rem;
+  }
+
+  .collections-container {
+    column-gap: 2.8rem;
+    row-gap: 3.2rem;
+  }
+
+  .clothing-name {
+    font-size: 1.8rem;
+  }
+
+  .clothing-price {
+    font-size: 1.6rem;
+  }
+}
+
+/* ----------------- Below 480px ---------------------- */
+
+@media (max-width: 480px) {
+  .heading-tertiary {
+    font-size: 2.8rem;
+  }
+
+  .collections-header {
+    padding: 3.6rem;
+  }
+}
+
+/* ----------------- Below 430px ---------------------- */
+
+@media (max-width: 430px) {
+  .section-collections {
+    padding: 3.2rem 1.6rem;
+  }
+
+  .collections-container {
+    column-gap: 1.6rem;
+    row-gap: 2.8rem;
+  }
+
+  .clothing-container {
+    gap: 0.8rem;
+  }
+}
+
+/* ----------------- Below 400px ---------------------- */
+
+@media (max-width: 400px) {
+  .nothing-found-message {
+    font-size: 2.4rem;
+  }
+
+  .clothing-name {
+    font-size: 1.6rem;
+  }
+
+  .clothing-price {
+    font-size: 1.4rem;
+  }
+}

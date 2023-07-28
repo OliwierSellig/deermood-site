@@ -1,0 +1,153 @@
+/* ----------------- Media query for Additionals ---------------------- */
+/* -------------------------------------------------------------------- */
+
+/* ----------------- Below 1400px ---------------------- */
+
+@media (max-width: 1400px) {
+  .search-container {
+    width: 60vw;
+  }
+}
+
+/* ----------------- Below 1024px ---------------------- */
+
+@media (max-width: 1024px) {
+  .search-container {
+    width: 70vw;
+  }
+}
+
+/* ----------------- Below 746px ---------------------- */
+
+@media (max-width: 746px) {
+  .no-account-container {
+    max-width: 35rem;
+    padding: 3.6rem 2.4rem;
+  }
+
+  .search-container {
+    width: 80vw;
+  }
+
+  .search-form-input {
+    padding: 1.6rem 3.6rem;
+    font-size: 1.8rem;
+  }
+}
+
+/* ----------------- Below 550px ---------------------- */
+
+@media (max-width: 550px) {
+  .bag-container-content {
+    width: 100vw;
+  }
+
+  .search-container {
+    width: 80vw;
+  }
+}
+
+/* ----------------- Below 480px ---------------------- */
+
+@media (max-width: 480px) {
+  .no-account-container {
+    max-width: 30rem;
+    padding: 2.4rem;
+  }
+
+  .no-account-text {
+    font-size: 1.8rem;
+  }
+}
+
+/* ----------------- Below 430px ---------------------- */
+
+@media (max-width: 430px) {
+  .bag-product {
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 2.4rem 0;
+  }
+
+  .bag-product-name {
+    font-size: 1.8rem;
+  }
+
+  .checkout-button {
+    width: 85%;
+  }
+
+  .no-account-container {
+    gap: 1.2rem;
+    padding: 2.4rem 1.6rem;
+  }
+
+  .no-account-text {
+    font-size: 1.6rem;
+  }
+
+  .search-container {
+    width: 95vw;
+  }
+
+  .search-button {
+    padding: 0.6rem;
+  }
+
+  .search-loop {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+}
+
+/* ----------------- Below 400px ---------------------- */
+
+@media (max-width: 400px) {
+  .bag-product {
+    grid-template-columns: 1fr 1.5fr 1fr;
+    gap: 0.8rem;
+    padding: 2.4rem 0;
+  }
+
+  .bag-container-content {
+    padding: 2.4rem 2.4rem 12;
+  }
+
+  .bag-product-amount-plus,
+  .bag-product-amount-minus {
+    width: 2.6rem;
+    height: 2.6rem;
+  }
+
+  .bag-product-amount-number {
+    font-size: 2rem;
+  }
+
+  .bag-product-price {
+    font-size: 1.6rem;
+  }
+
+  .bag-product-trash-icon {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+}
+
+/* ----------------- Below 360px ---------------------- */
+
+@media (max-width: 360px) {
+  .no-account-container {
+    max-width: 25rem;
+  }
+}
+
+/* ----------------- Below 340px ---------------------- */
+
+@media (max-width: 340px) {
+  .bag-free-shipping {
+    font-size: 1.6rem;
+  }
+
+  .bag-product-container {
+    margin-top: 1.2rem;
+  }
+}

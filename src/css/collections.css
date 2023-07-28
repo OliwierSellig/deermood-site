@@ -1,0 +1,172 @@
+@import url("general.css");
+@import url("nav.css");
+@import url("footer.css");
+@import url("additional.css");
+
+.collections-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4.8rem;
+  background-color: #f9f4f1;
+  text-align: center;
+}
+
+.section-collections {
+  display: grid;
+  grid-template-columns: 1fr 4.5fr;
+  gap: 4.8rem;
+  padding: 9.6rem 4.8rem;
+}
+
+.nothing-found-message {
+  grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+.collections-search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.collections-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  font-size: 2rem;
+}
+
+.collections-options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  list-style: none;
+  padding: 2.4rem 0;
+  border-bottom: 1px solid #444;
+}
+
+.collections-link {
+  display: inline-block;
+  color: #444;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.collections-link:hover {
+  color: #333;
+  transform: scale(1.2);
+}
+
+.collections-price-control {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.price-up-button,
+.price-down-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 50%;
+  background-color: #926f4d;
+  cursor: pointer;
+}
+
+.price-up-button:hover,
+.price-down-button:hover {
+  background-color: #836445;
+}
+
+.price-up-icon,
+.price-down-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.collections-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: start;
+  column-gap: 3.6rem;
+  row-gap: 4.8rem;
+}
+
+.clothing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.2rem;
+  width: 100%;
+  color: #444;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.clothing-img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.clothing-img {
+  width: 100%;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.05);
+  transform: scale(1.01);
+}
+
+.take-look {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.take-look:hover {
+  opacity: 0.6;
+}
+
+.icon-loop-white {
+  height: 14rem;
+  width: 14rem;
+}
+
+.take-a-look-text {
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+.clothing-name {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.clothing-price {
+  margin-top: 0.8rem;
+  font-size: 2.2rem;
+}
+
+.filter-text {
+  display: none;
+}
+
+.collections-filter-button {
+  display: none;
+}

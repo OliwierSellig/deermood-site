@@ -1,0 +1,209 @@
+@import url("general.css");
+@import url("nav.css");
+@import url("footer.css");
+@import url("additional.css");
+
+/* ----------------- Section Essentials ------------------ */
+/* ------------------------------------------------------- */
+
+.section-essentials {
+  padding: 9.6rem 4.8rem;
+}
+
+.essentials-heading {
+  text-align: center;
+}
+
+.essentials-container {
+  max-width: 120rem;
+  margin: 8rem auto 0;
+  border-radius: 7px;
+  background-color: #f9f4f1;
+}
+
+.essentials-tabs-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6.4rem;
+}
+
+.essentials-button {
+  display: inline-block;
+  padding: 1.6rem 4.8rem;
+  border: none;
+  border-radius: 10rem;
+  background-color: #926f4d;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  transform: translateY(-50%);
+}
+
+.essentials-button--active {
+  transform: translateY(-65%);
+}
+
+.essentials-content {
+  display: none;
+  padding: 3.2rem;
+}
+
+.essentials-content--active {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.essentials-img {
+  max-width: 45rem;
+  width: 100%;
+  border-radius: 19px;
+}
+
+.essentials-block-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  padding: 3.2rem;
+  border: 4px dashed #fff;
+}
+
+.essentials-content-heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.essentials-content-text {
+  font-size: 2rem;
+  line-height: 1.3;
+}
+
+/* ----------------- Section Founder ------------------ */
+/* ------------------------------------------------------- */
+
+.section-founder {
+  padding: 9.6rem;
+  background-color: #926f4d;
+  color: #fff;
+}
+
+.founder-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 6.4rem;
+}
+
+.founder-img {
+  width: 100%;
+  border-radius: 19px;
+}
+
+.founder-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.founder-intro {
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.founder-quote {
+  margin-top: 3.2rem;
+  font-family: "Noto Serif", serif;
+  font-size: 2.4rem;
+  line-height: 1.3;
+}
+
+.founder-name {
+  margin-top: 1.6rem;
+  font-size: 1.6rem;
+}
+
+/* ----------------- Section Email ------------------ */
+/* ------------------------------------------------------- */
+
+.section-email {
+  padding: 12.8rem 8rem;
+  background-color: #f9f4f1;
+}
+
+.email-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 80rem;
+  margin: 0 auto;
+  border-radius: 9px;
+  background-color: #fff;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+}
+
+.email-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+  padding: 3.2rem;
+}
+
+.email-heading {
+  font-size: 3.6rem;
+  font-weight: 500;
+}
+
+.email-subheading {
+  font-size: 2rem;
+  line-height: 1.3;
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+  width: 100%;
+}
+
+.email-form-input {
+  width: 95%;
+  padding: 1.2rem;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  font-family: inherit;
+  font-size: 1.8rem;
+  color: #444;
+}
+
+.email-button {
+  padding: 1.6rem 8rem;
+  border: none;
+  border-radius: 9px;
+  background-color: #926f4d;
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #fff;
+  cursor: pointer;
+}
+
+.email-button:hover {
+  background-color: #836445;
+}
+
+.email-img {
+  width: 100%;
+  transform: scale(1.01);
+}

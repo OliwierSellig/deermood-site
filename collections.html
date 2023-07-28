@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Deermood - Discover Our Organic Collection!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Embrace Earth-Friendly Fashion: Unveiling the Finest Non-Plastic Clothing, Dedicated to Preserving Our Planet"
+    />
+    <link rel="icon" href="src/img/deermood-favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/collections.css" />
+    <link rel="stylesheet" href="src/css/collections-media.css" />
+    <script type="module" src="src/js/collections.js"></script>
+  </head>
+  <body>
+    <header class="section-nav">
+      <div class="free-shipping-nav">Free shipping on order over $70</div>
+      <nav class="main-nav">
+        <a href="index.html" class="main-nav--logo-link"
+          ><img
+            src="src/img/nav-logo.webp"
+            class="main-nav--logo-image"
+            alt="Logo of deer"
+        /></a>
+        <div class="left-wing-nav">
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li>
+                <a href="collections.html#new" class="main-nav--link">New</a>
+              </li>
+              <li>
+                <a href="collections.html#men" class="main-nav--link">Men</a>
+              </li>
+              <li>
+                <a href="collections.html#women" class="main-nav--link"
+                  >Women</a
+                >
+              </li>
+              <li>
+                <a href="company.html" class="main-nav--link">Deermood</a>
+              </li>
+            </ul>
+          </div>
+          <button class="mobile-menu-button" aria-label="Open Links List">
+            <img class="menu-open-icon" src="src/icons/menu-icon.svg" alt="" />
+          </button>
+        </div>
+        <div class="right-wing-nav">
+          <ul class="nav-actions">
+            <li>
+              <button class="icon-nav icon-loop" aria-label="Open Search Bar">
+                <img
+                  class="icon-nav-img"
+                  src="src/icons/loop-icon.svg"
+                  alt=""
+                />
+              </button>
+            </li>
+            <li>
+              <button class="icon-nav icon-user" aria-label="Open User Tab">
+                <img
+                  class="icon-nav-img"
+                  src="src/icons/user-icon.svg"
+                  alt=""
+                />
+              </button>
+            </li>
+            <li>
+              <button
+                class="icon-nav icon-bag bag-not-visited"
+                aria-label="Open Products Bag"
+              >
+                <img class="icon-nav-img" src="src/icons/bag-icon.svg" alt="" />
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <header class="collections-header">
+        <h2 class="heading-tertiary collections-title">
+          <span class="search-result-text"></span>
+        </h2>
+      </header>
+      <section class="section-collections">
+        <nav class="collections-nav">
+          <ul class="collections-options-list"></ul>
+          <div class="collections-price-control">
+            <span class="price">Price:</span
+            ><button class="price-up-button" aria-label="Sort Price By Highest">
+              <img class="price-up-icon" src="src/icons/up-icon.svg" alt="" />
+            </button>
+            <button class="price-down-button" aria-label="Sort Price By Lowest">
+              <img
+                class="price-down-icon"
+                src="src/icons/down-icon.svg"
+                alt=""
+              />
+            </button>
+          </div>
+        </nav>
+        <div class="collections-container"></div>
+        <div class="filter-container">
+          <button
+            class="collections-filter-button"
+            aria-label="Open Filter Menu"
+          >
+            <img
+              class="filter-icon"
+              src="src/icons/tuning-icon.svg"
+              alt=""
+            /></button
+          ><span class="filter-text">Filter</span>
+        </div>
+      </section>
+    </main>
+    <aside class="bag-container hidden-bag">
+      <div class="bag-container-content unvisible">
+        <header class="bag-header">
+          <span class="bag-header-title"
+            >Your bag (<span class="bag-header-number">2</span>)</span
+          >
+          <button class="bag-header-close" aria-label="Close Bag">
+            <img
+              class="bag-close-icon"
+              src="src/icons/close-grey-icon.svg"
+              alt=""
+            />
+          </button>
+        </header>
+        <span class="bag-free-shipping">Free shipping on order over $70</span>
+        <div class="bag-products-container"></div>
+        <div class="checkout-container">
+          <div class="checkout-total-container">
+            <span class="checkout-total-items">Subtotoal (2 items)</span>
+            <span class="checkout-total-price">$79,99</span>
+          </div>
+          <button class="checkout-button">Checkout</button>
+        </div>
+      </div>
+    </aside>
+    <aside class="no-account-popup no-account-hidden">
+      <div class="no-account-container unvisible">
+        <p class="no-account-text">
+          Sorry, we haven't implemented this function yet. Stay in touch!
+        </p>
+        <img
+          class="no-account-close"
+          src="src/icons/close-grey-icon.svg"
+          alt=""
+        />
+        <img class="no-account-img" src="src/icons/error-icon.svg" alt="" />
+      </div>
+    </aside>
+    <div class="search-container hidden">
+      <form class="search-form">
+        <input
+          class="search-form-input"
+          type="search"
+          placeholder="Search for the clothing you want..."
+        />
+
+        <button class="search-button">
+          <img class="search-loop" src="src/icons/loop-white-icon.svg" alt="" />
+        </button>
+      </form>
+    </div>
+    <div class="blur-window-bag hidden"></div>
+    <div class="blur-window-search hidden"></div>
+    <footer class="footer-container">
+      <div class="footer-logo">
+        <a href="index.html" class="footer-logo-img"
+          ><img src="src/img/footer-logo.webp" alt="Deer Logo"
+        /></a>
+        <span class="footer-copyright"
+          >Copyright &copy;
+          <span class="current-year">2021</span> Deermood</span
+        >
+      </div>
+      <div class="footer-info">
+        <div class="footer-info-col">
+          <p class="footer-info-heading">Support</p>
+          <ul class="footer-info-nav">
+            <li><a href="index.html" class="footer-link">Contact</a></li>
+            <li><a href="index.html" class="footer-link">Help Center</a></li>
+            <li><a href="index.html" class="footer-link">Shipping</a></li>
+            <li><a href="index.html" class="footer-link">Refer a friend</a></li>
+          </ul>
+        </div>
+        <div class="footer-info-col">
+          <p class="footer-info-heading">Deermood</p>
+          <ul class="footer-info-nav">
+            <li><a href="index.html" class="footer-link">About us</a></li>
+            <li><a href="index.html" class="footer-link">Sustainability</a></li>
+            <li><a href="index.html" class="footer-link">Careers</a></li>
+            <li>
+              <a href="index.html" class="footer-link">Materials we use</a>
+            </li>
+            <li>
+              <a href="index.html" class="footer-link">Become an affiliate</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-info-col">
+          <p class="footer-info-heading">Connect</p>
+          <ul class="footer-info-socials">
+            <li>
+              <a href="index.html"
+                ><img
+                  class="footer-icon"
+                  src="src/icons/instagram-icon.svg"
+                  alt="Instagram Icon"
+              /></a>
+            </li>
+            <li>
+              <a href="index.html"
+                ><img
+                  class="footer-icon"
+                  src="src/icons/yt-icon.svg"
+                  alt="Youtube Icon"
+              /></a>
+            </li>
+            <li>
+              <a href="index.html"
+                ><img
+                  class="footer-icon"
+                  src="src/icons/facebook-icon.svg"
+                  alt="Facebook Icon"
+              /></a>
+            </li>
+            <li>
+              <a href="index.html"
+                ><img
+                  class="footer-icon"
+                  src="src/icons/tiktok-icon.svg"
+                  alt="Tiktok Icon"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

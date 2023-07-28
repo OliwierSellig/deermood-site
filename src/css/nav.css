@@ -1,0 +1,81 @@
+/* ----------------- Navigation ---------------- */
+/* ---------------------------------------------- */
+
+.section-nav {
+  width: 100%;
+  background-color: #fff;
+}
+
+.free-shipping-nav {
+  width: 100%;
+  padding: 1.2rem 2.4rem;
+  background-color: #926f4d;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+  padding: 1.6rem 3.2rem;
+}
+
+.right-wing-nav {
+  margin-left: auto;
+}
+
+.left-wing-nav {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.nav-links,
+.nav-actions {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 4.8rem;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.main-nav--link {
+  display: inline-block;
+  color: #444;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-nav--link:hover {
+  color: #333;
+  transform: scale(1.2);
+}
+
+.icon-nav {
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.icon-nav-img {
+  width: inherit;
+  height: inherit;
+}
+
+.mobile-menu-button {
+  display: none;
+}
+
+.sticky .section-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}

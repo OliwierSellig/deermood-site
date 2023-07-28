@@ -1,0 +1,268 @@
+@import url("nav-media.css");
+@import url("footer-media.css");
+@import url("additional-media.css");
+
+/* ----------------- Media query for Company Page ---------------------- */
+/* --------------------------------------------------------------------- */
+
+/* ----------------- Below 1500px ---------------------- */
+
+@media (max-width: 1500px) {
+  .founder-container {
+    grid-template-columns: 1fr 1.5fr;
+  }
+}
+
+/* ----------------- Below 1300px ---------------------- */
+
+@media (max-width: 1300px) {
+  .essentials-content {
+    grid-template-columns: 1fr 1.5fr;
+    gap: 1.6rem;
+    overflow: hidden;
+  }
+
+  .essentials-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 19px;
+    overflow: hidden;
+  }
+
+  .essentials-img {
+    transform: scale(1.5);
+  }
+
+  .section-founder {
+    padding: 9.6rem 4.8rem;
+  }
+
+  .founder-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 19px;
+    overflow: hidden;
+  }
+
+  .founder-img {
+    transform: scale(1.5);
+  }
+}
+
+/* ----------------- Below 1024px ---------------------- */
+
+@media (max-width: 1024px) {
+  .essentials-tabs-container {
+    gap: 4.2rem;
+  }
+
+  .essentials-content-text {
+    font-size: 1.8rem;
+  }
+
+  .founder-img {
+    transform: scale(2);
+  }
+}
+
+/* ----------------- Below 914px ---------------------- */
+
+@media (max-width: 914px) {
+  .essentials-content {
+    padding: 1.6rem;
+  }
+
+  .essentials-tabs-container {
+    gap: 3.6rem;
+  }
+
+  .essentials-button {
+    padding: 1.4rem 3.6rem;
+    font-size: 1.8rem;
+  }
+
+  .essentials-img {
+    transform: scale(2.1);
+  }
+
+  .founder-container {
+    grid-template-columns: 1fr 1.2fr;
+  }
+
+  .founder-img {
+    transform: scale(2);
+  }
+}
+
+/* ----------------- Below 880px ---------------------- */
+
+@media (max-width: 880px) {
+  .founder-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .founder-img {
+    width: 80%;
+    transform: scale(1);
+  }
+
+  .founder-quote {
+    text-align: center;
+  }
+}
+
+/* ----------------- Below 746px ---------------------- */
+
+@media (max-width: 746px) {
+  .section-essentials {
+    padding: 9.6rem 2.4rem;
+  }
+
+  .essentials-tabs-container {
+    gap: 2rem;
+  }
+
+  .essentials-button {
+    padding: 1.2rem 3.2rem;
+  }
+
+  .essentials-content {
+    grid-template-columns: 1fr;
+  }
+  .essentials-img {
+    transform: scale(1);
+  }
+
+  .founder-img {
+    width: 100%;
+  }
+
+  .section-email {
+    padding: 9.6rem 6.4rem;
+  }
+
+  .email-container {
+    grid-template-columns: 1fr 1.5fr;
+  }
+
+  .email-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .email-img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.5);
+  }
+}
+
+/* ----------------- Below 600px ---------------------- */
+
+@media (max-width: 600px) {
+  .essentials-tabs-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .essentials-block-text {
+    padding: 2.4rem;
+  }
+
+  .email-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email-img {
+    transform: scale(1);
+  }
+}
+
+/* ----------------- Below 480px ---------------------- */
+
+@media (max-width: 480px) {
+  .section-founder {
+    padding: 6.4rem 3.2rem;
+  }
+
+  .email-heading {
+    font-size: 3.2rem;
+  }
+
+  .email-subheading {
+    font-size: 1.8rem;
+  }
+}
+
+/* ----------------- Below 430px ---------------------- */
+
+@media (max-width: 430px) {
+  .section-email {
+    padding: 6.4rem 3.2rem;
+  }
+
+  .email-content {
+    padding: 3.2rem 1.6rem;
+  }
+}
+
+/* ----------------- Below 380px ---------------------- */
+
+@media (max-width: 380px) {
+  .essentials-button {
+    font-size: 1.6rem;
+  }
+
+  .essentials-tabs-container {
+    column-gap: 1.6rem;
+  }
+
+  .founder-container {
+    gap: 4.8rem;
+  }
+
+  .founder-quote {
+    margin-top: 2.8rem;
+    font-size: 2.2rem;
+  }
+
+  .email-form-input {
+    font-size: 1.6rem;
+  }
+
+  .email-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.6rem 0;
+    font-size: 2rem;
+  }
+}
+
+/* ----------------- Below 360px ---------------------- */
+
+@media (max-width: 360px) {
+  .essentials-tabs-container {
+    grid-template-columns: 1fr;
+  }
+
+  .essentials-button {
+    width: 90%;
+    justify-self: center;
+  }
+
+  .essentials-button--active {
+    transform: scale(1.1) translateY(-50%);
+  }
+
+  .essentials-content-text {
+    font-size: 1.6rem;
+  }
+}
