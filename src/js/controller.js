@@ -361,3 +361,5 @@ export const imageInitJs = function (img) {
     });
   });
 };
+
+console.log("Hello");
