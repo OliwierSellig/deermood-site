@@ -55,6 +55,11 @@
   height: 2.8rem;
 }
 
+.bag-close-icon:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem #a37d56;
+}
+
 .bag-free-shipping {
   margin-top: 1.6rem;
   font-size: 2rem;
@@ -123,7 +128,9 @@
 }
 
 .bag-product-amount-minus:hover,
-.bag-product-amount-plus:hover {
+.bag-product-amount-minus:focus,
+.bag-product-amount-plus:hover,
+.bag-product-amount-plus:focus {
   background-color: #836445;
 }
 
@@ -167,7 +174,8 @@
   padding: 0.6rem;
 }
 
-.bag-product-trash-icon:hover {
+.bag-product-trash-icon:hover,
+.bag-product-trash-icon:focus {
   background-color: #836445;
 }
 
@@ -214,7 +222,8 @@
   cursor: pointer;
 }
 
-.checkout-button:hover {
+.checkout-button:hover,
+.checkout-button:focus {
   background-color: #836445;
 }
 
@@ -263,6 +272,10 @@
 }
 
 .search-button:hover {
+  background-color: #836445;
+}
+
+.search-button:focus {
   background-color: #836445;
 }
 

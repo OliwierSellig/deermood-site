@@ -41,6 +41,11 @@
   transform: translateY(-50%);
 }
 
+.essentials-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem #a37d56;
+}
+
 .essentials-button--active {
   transform: translateY(-65%);
 }
@@ -200,6 +205,10 @@
 }
 
 .email-button:hover {
+  background-color: #836445;
+}
+
+.email-button:focus {
   background-color: #836445;
 }
 

@@ -44,6 +44,11 @@
   text-transform: uppercase;
 }
 
+.main-nav--logo-link:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem #a37d56;
+}
+
 .main-nav--link {
   display: inline-block;
   color: #444;
@@ -51,7 +56,8 @@
   transition: all 0.3s ease-in-out;
 }
 
-.main-nav--link:hover {
+.main-nav--link:hover,
+.main-nav--link:focus {
   color: #333;
   transform: scale(1.2);
 }
@@ -62,6 +68,11 @@
   border: none;
   background: none;
   cursor: pointer;
+}
+
+.icon-nav:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem #a37d56;
 }
 
 .icon-nav-img {

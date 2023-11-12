@@ -56,7 +56,8 @@
   transition: all 0.3s ease-in-out;
 }
 
-.collections-link:hover {
+.collections-link:hover,
+.collections-link:focus {
   color: #333;
   transform: scale(1.2);
 }
@@ -79,10 +80,13 @@
   border-radius: 50%;
   background-color: #926f4d;
   cursor: pointer;
+  transition: all 0.2s;
 }
 
 .price-up-button:hover,
-.price-down-button:hover {
+.price-up-button:focus,
+.price-down-button:hover,
+.price-down-button:focus {
   background-color: #836445;
 }
 
@@ -110,6 +114,10 @@
   text-decoration: none;
   cursor: pointer;
   overflow: hidden;
+}
+
+.clothing-container:focus .take-look {
+  opacity: 0.6;
 }
 
 .clothing-img-container {
